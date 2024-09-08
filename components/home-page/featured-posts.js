@@ -4,7 +4,7 @@ import PostGrid from "../posts/posts-grid";
 export default function FeaturedPosts(props) {
     return (
         <section className={classes.latest}>
-            <h3>Featured Posts</h3>
+            <h3 className="font-bold text-3xl flex justify-center">Featured Posts</h3>
             <PostGrid posts={props.posts} />
         </section>
     );
